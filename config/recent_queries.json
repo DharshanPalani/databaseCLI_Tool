@@ -1,0 +1,7 @@
+[
+  "SELECT * FROM quests",
+  "INSERT INTO quests (reward_point, created_at, quest_name, rank, details)  \nVALUES \n(50, NOW(), 'Bug Extermination', 'C', 'Fix 10 bugs in your project.'),\n(75, NOW(), 'Algorithm Slayer', 'B', 'Solve 5 LeetCode Medium problems.'),\n(100, NOW(), 'Framework Mastery', 'A', 'Build a small app using a new framework.'),\n(150, NOW(), 'Database Conqueror', 'S', 'Optimize a slow SQL query and improve performance.'),\n(200, NOW(), 'System Architect Awakening', 'SS', 'Design and implement a scalable backend system.')\nRETURNING id;",
+  "SELECT * FROM quests",
+  "TRUNCATE TABLE quests RESTART IDENTITY;",
+  "SELECT * FROM quests"
+]
